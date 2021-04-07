@@ -19,7 +19,7 @@ loginForm.addEventListener('submit', (e) => {
 
     auth.signInWithEmailAndPassword(email, password).then(cred => {
         console.log(cred);
-        window.location = "booking-form.html";
+        window.location = "base.html";
     })
 
 })
